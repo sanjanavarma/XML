@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="prac.xsl" type="text/xsl" ?>
-<!DOCTYPE note [
-<!ELEMENT survey (region,location,feature,rov,area,depth,dist,shipping,items)>
-<!ELEMENT region (#PCDATA)>
-<!ELEMENT location (#PCDATA)>
-<!ELEMENT feature (#PCDATA)>
-<!ELEMENT rov (#PCDATA)>
-<!ELEMENT area (#PCDATA)>
-<!ELEMENT depth (#PCDATA)>
-<!ELEMENT dist (#PCDATA)>
-<!ELEMENT shipping (#PCDATA)>
-<!ELEMENT items (#PCDATA)>
-]>
+<!DOCTYPE p SYSTEM "p.dtd">
 <survey>
 
-  <cd>
+  <isro>
 
     <region>Atlantic</region>
     <location>Carter</location>
@@ -26,9 +15,9 @@
     <shipping>0.12</shipping>
     <items>12.23</items>
 
-  </cd>
+  </isro>
 
-  <cd>
+  <isro>
     <region>Atlantic</region>
     <location>Knipovich</location>
     <feature>Seamount</feature>
@@ -38,9 +27,9 @@
     <dist>1360</dist>
     <shipping>0.23</shipping>
     <items>2.29</items>
-  </cd>
+  </isro>
 
-  <cd>
+  <isro>
     <region>Atlantic</region>
     <location>VEMA</location>
     <feature>Fracture Zone</feature>
@@ -50,9 +39,9 @@
     <dist>1040</dist>
     <shipping>0.07</shipping>
     <items>5.56</items>
-  </cd>
+  </isro>
 
-  <cd>
+  <isro>
     <region>Atlantic</region>
     <location>Vayda</location>
     <feature>Seamount</feature>
@@ -62,9 +51,9 @@
     <dist>1170</dist>
     <shipping>0.01</shipping>
     <items>1.94</items>
-  </cd>
+  </isro>
 
-  <cd>
+  <isro>
     <region>Atlantic</region>
     <location>Gramberg</location>
     <feature>Seamount</feature>
@@ -74,9 +63,9 @@
     <dist>940</dist>
     <shipping>0.21</shipping>
     <items>0.59</items>
-  </cd>
+  </isro>
 
-  <cd>
+  <isro>
     <region>Indian</region>
     <location>Coral</location>
     <feature>Seamount</feature>
@@ -86,9 +75,9 @@
     <dist>1610</dist>
     <shipping>0.01</shipping>
     <items>1.47</items>
-  </cd>
+  </isro>
 
-  <cd>
+  <isro>
     <region>Indian</region>
     <location>Melville</location>
     <feature>Bank</feature>
@@ -98,9 +87,9 @@
     <dist>1440</dist>
     <shipping>0.00</shipping>
     <items>13.33</items>
-  </cd>
+  </isro>
 
-  <cd>
+  <isro>
     <region>Indian</region>
     <location>Middle of what</location>
     <feature>Seamount</feature>
@@ -110,9 +99,9 @@
     <dist>1460</dist>
     <shipping>0.00</shipping>
     <items>2.44</items>
-  </cd>
+  </isro>
 
-  <cd>
+  <isro>
     <region>Indian</region>
     <location>Sapmer</location>
     <feature>Seamount</feature>
@@ -122,8 +111,8 @@
     <dist>1390</dist>
     <shipping>0.00</shipping>
     <items>17.39</items>
-  </cd>
-  <cd>
+  </isro>
+  <isro>
     <region>Indian</region>
     <location>Atlantis</location>
     <feature>Bank</feature>
@@ -133,6 +122,6 @@
     <dist>1320</dist>
     <shipping>0.10</shipping>
     <items>0.75</items>
-  </cd>
+  </isro>
 
 </survey>
