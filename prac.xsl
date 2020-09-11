@@ -17,7 +17,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <th>Items(ha^(-1))</th>
 
       </tr>
-      <xsl:for-each select="survey/cd">
+      <xsl:for-each select="survey/isro">
       <tr>
         <td><xsl:value-of select="region" /></td>
         <td><xsl:value-of select="location" /></td>
